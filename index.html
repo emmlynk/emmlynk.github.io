@@ -1,51 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>EMMLYNK | Luxury Fashion</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emma Sesay - Portfolio</title>
 <style>
-body{margin:0;font-family:sans-serif;background:#000;color:#fff}
-header{padding:30px;text-align:center;border-bottom:2px solid #d4af37}
-.logo{width:100px;height:100px;background:linear-gradient(#d4af37,#b8941f);color:#000;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:bold;margin:0 auto;border:3px solid #fff}
-header h1{color:#d4af37;letter-spacing:5px;margin:15px 0 5px;font-size:32px}
-.hero{padding:80px 20px;text-align:center;background:linear-gradient(180deg,#000 0%,#151515 100%)}
-.hero h2{font-size:42px;margin:0} .hero span{color:#d4af37}
-.hero p{color:#bbb;max-width:500px;margin:20px auto;line-height:1.6}
-.btn{display:inline-block;margin:10px;padding:16px 34px;background:#d4af37;color:#000;text-decoration:none;font-weight:bold;border-radius:30px;font-size:14px}
-.cards{display:flex;flex-wrap:wrap;justify-content:center;padding:30px 15px;gap:15px}
-.card{background:#1a1a1a;padding:28px;border-radius:16px;width:280px;border:1px solid #2a2a2a;text-align:center}
-.card h3{color:#d4af37;margin-top:0}
-.contact{padding:50px 20px;text-align:center;background:#111}
-footer{padding:25px;text-align:center;color:#555;border-top:1px solid #222;font-size:12px}
-a{color:#d4af37;text-decoration:none}
+  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin:0; color:#1a2a4a; background:#f6f8fc; line-height:1.6; }
+  .nav { display:flex; justify-content:space-between; padding:20px; max-width:1000px; margin:auto; }
+  .nav b { font-size:18px; }
+  .nav a { margin-left:20px; text-decoration:none; color:#1a2a4a; }
+  .hero { max-width:1000px; margin:40px auto; padding:0 20px; }
+  .hero h1 { font-family: Georgia, serif; font-size:48px; line-height:1.1; max-width:500px; margin:0; }
+  .hero p { color:#5a6a85; font-size:18px; max-width:450px; margin-top:20px; }
+  .btn { display:inline-block; background:#2f5bff; color:white; padding:14px 28px; border-radius:30px; text-decoration:none; font-weight:600; margin-top:20px; }
+  section { max-width:1000px; margin:80px auto; padding:0 20px; border-top:1px solid #e2e8f0; padding-top:60px; }
+  h2 { font-family: Georgia, serif; font-size:36px; }
+  .project { display:flex; justify-content:space-between; border-bottom:1px solid #e2e8f0; padding:25px 0; }
+  .project small { color:#5a6a85; }
 </style>
 </head>
 <body>
-<header>
-<div class="logo">E</div>
-<h1>EMMLYNK</h1>
-<p style="color:#888;letter-spacing:3px;font-size:11px">LUXURY FASHION • FREETOWN • SIERRA LEONE</p>
-</header>
+  <div class="nav">
+    <b>Emma Sesay</b>
+    <div><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+  </div>
 
-<div class="hero">
-<h2>Wear Your <span>Confidence</span></h2>
-<p>EMMLYNK is a premium luxury fashion house from Freetown. Bold. Elegant. Made for those who own their style.</p>
-<a class="btn" href="https://wa.me/23278000000?text=Hi%20EMMLYNK%20I%20want%20to%20order">ORDER ON WHATSAPP</a><br>
-<a class="btn" style="background:transparent;color:#d4af37;border:2px solid #d4af37" href="#collection">VIEW COLLECTION</a>
-</div>
+  <div class="hero">
+    <h1>Computer science student, raising awareness that matters.</h1>
+    <p>I'm Emma Sesay. I study computer science and run awareness projects on drugs and cyberbullying.</p>
+    <a class="btn" href="#contact">Get in touch</a>
+  </div>
 
-<div class="cards" id="collection">
-<div class="card"><h3>👗 Premium Wears</h3><p>Luxury dresses, tops & exclusive collections for confident women.</p></div>
-<div class="card"><h3>✂️ Bespoke Tailoring</h3><p>Custom-made outfits tailored perfectly to your measurements.</p></div>
-<div class="card"><h3>🚚 Fast Delivery</h3><p>We deliver across Sierra Leone - Freetown to everywhere.</p></div>
-</div>
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm Emma, a computer science student. I'm learning to build technology, and I want to use what I learn to help people.</p>
+    <p>My projects focus on two issues that affect many young people: drug use and cyberbullying. I believe clear information and open conversation can keep people safe.</p>
+    <p>Freetown, Sierra Leone 🇸🇱 | GitHub: github.com/emmlynk</p>
+  </section>
 
-<div class="contact">
-<h2 style="color:#d4af37">Visit Our Store</h2>
-<p>Freetown, Sierra Leone<br>Instagram: @emmlynk</p>
-<a class="btn" href="https://wa.me/23278000000">CHAT US NOW</a>
-</div>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <div><b>Drug awareness</b><br>Educating people about the risks of drug use and where to find help.</div>
+      <small>Ongoing</small>
+    </div>
+    <div class="project">
+      <div><b>Cyberbullying awareness</b><br>Helping people recognize cyberbullying, support those affected and stay safe online.</div>
+      <small>Ongoing</small>
+    </div>
+  </section>
 
-<footer>© 2026 EMMLYNK. Luxury Fashion House. All Rights Reserved.<br>Freetown, Sierra Leone</footer>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate or learn more about my projects? Send me a message.</p>
+    <a class="btn" href="mailto:emma.sesay@example.com">Email Emma</a>
+    <p style="margin-top:20px; color:#5a6a85;">Replace email with your real email before publishing.</p>
+  </section>
 </body>
 </html>
